@@ -21,10 +21,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Clock</title>
+        <title>Apple Watch</title>
         <meta
           name="description"
-          content="Just a Clock build in NextJS and TailwindCSS"
+          content="Apple Watch build with NextJS (ReactJS) & TailwindCSS"
         />
         <meta name="viewport" content="width=1366" />
         <link rel="icon" href="/favicon.ico" />

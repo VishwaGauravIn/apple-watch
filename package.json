@@ -1,5 +1,5 @@
 {
-  "name": "clock",
+  "name": "apple-watch",
   "private": true,
   "scripts": {
     "dev": "next dev",
