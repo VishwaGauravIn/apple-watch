@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Clock() {
+export default function Clock({hour, minute}) {
   return (
     <div className="relative left-1/2 -translate-x-1/2 w-max flex justify-center items-center z-10">
       {/* Clock outer frame */}
@@ -23,8 +23,8 @@ export default function Clock() {
         />
         {/* Time goes here */}
         <div className="w-full h-full flex flex-col justify-center items-center">
-        <p className="relative z-10 text-indigo-50 text-9xl font-semibold text-shadow-lg">11</p>
-        <p className="relative z-10 text-indigo-100 text-9xl font-semibold text-shadow-lg">58</p>
+        <p className="relative z-10 text-indigo-50 text-9xl font-semibold text-shadow-lg">{hour}</p>
+        <p className="relative z-10 text-indigo-100 text-9xl font-semibold text-shadow-lg">{minute}</p>
         </div>
       </div>
     </div>

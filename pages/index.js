@@ -1,10 +1,23 @@
 import Head from "next/head";
+import { useState } from "react";
 import Clock from "../components/clock/Clock";
 import Header from "../components/header/Header";
 import Strap from "../components/strap/Strap";
 import UpwardStrap from "../components/strap/UpwardStrap";
 
 export default function Home() {
+    let time = new Date();
+    let [hour, setHour] = useState();
+    let [minute, setMinute] = useState();
+    const updateTime = () => {
+      time = new Date();
+      setHour(n(time.getHours()))
+      setMinute(n(time.getMinutes()))
+    }
+    function n(n) {
+      return n > 9 ? "" + n : "0" + n;
+    }
+    setInterval(updateTime, 1000);
   return (
     <>
       <Head>
@@ -13,6 +26,7 @@ export default function Home() {
           name="description"
           content="Just a Clock build in NextJS and TailwindCSS"
         />
+        <meta name="viewport" content="width=1366" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,7 +34,7 @@ export default function Home() {
         <Header />
         <div className=" scale-75 sm:scale-100">
           <UpwardStrap />
-          <Clock />
+          <Clock hour={hour} minute={minute} />
           <Strap />
         </div>
       </body>
