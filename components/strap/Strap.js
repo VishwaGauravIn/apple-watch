@@ -8,7 +8,7 @@ export default function Strap() {
       <div className="w-full h-full strap shadow-2xl brightness-[0.8]"></div>
       {/* Strap Hole */}
       <div className="w-6 h-10 rounded-full strap-hole absolute bottom-[1rem] left-1/2 shadow-2xl"></div>
-      <div className="w-6 h-10 rounded-full strap-hole-special absolute bottom-[6rem] left-1/2 shadow-2xl"></div>
+      <div className="w-6 h-10 rounded-full strap-hole absolute bottom-[6rem] left-1/2 shadow-2xl"></div>
       <div className="w-6 h-10 rounded-full strap-hole absolute bottom-[11rem] left-1/2 shadow-2xl"></div>
     </div>
   );
