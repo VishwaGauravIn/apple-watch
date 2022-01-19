@@ -32,7 +32,7 @@ export default function Home() {
 
       <body className="min-h-screen">
         <Header />
-        <div className=" scale-75 sm:scale-100">
+        <div className="scale-100">
           <UpwardStrap />
           <Clock hour={hour} minute={minute} />
           <Strap />
