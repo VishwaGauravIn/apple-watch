@@ -1,0 +1,12 @@
+.header-day1 {
+  background-image: linear-gradient(135deg, #ffe985 10%, #f88344 100%);
+}
+.header-day2 {
+  background-image: linear-gradient(135deg, #fccf31 10%, #f55555 100%);
+}
+.header-night1 {
+  background-image: linear-gradient(to right, #434343 0%, rgb(31, 31, 31) 100%);
+}
+.header-night2 {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
