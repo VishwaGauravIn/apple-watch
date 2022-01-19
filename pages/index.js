@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Clock from "../components/clock/Clock";
 import Header from "../components/header/Header";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
       <body className="min-h-screen">
         <Header />
+        <Clock/>
       </body>
     </>
   );
