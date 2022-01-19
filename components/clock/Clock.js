@@ -21,6 +21,10 @@ export default function Clock() {
           className="absolute w-full h-full object-cover rounded-2xl brightness-75"
         />
         {/* Time goes here */}
+        <div className="w-full h-full flex flex-col justify-center items-center">
+        <p className="relative z-10 text-indigo-50 text-9xl font-semibold text-shadow-lg">11</p>
+        <p className="relative z-10 text-indigo-100 text-9xl font-semibold text-shadow-lg">58</p>
+        </div>
       </div>
     </div>
   );
