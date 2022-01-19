@@ -18,7 +18,8 @@ export default function Clock() {
       <div className="w-[21.5rem] aspect-[1/1.2160] rounded-2xl clock z-10 relative">
         <img
           src="/wallpaper.jpg"
-          className="absolute w-full h-full object-cover rounded-2xl brightness-75"
+          className="absolute w-full h-full object-cover rounded-2xl brightness-75 select-none pointer-events-none"
+          draggable="false"
         />
         {/* Time goes here */}
         <div className="w-full h-full flex flex-col justify-center items-center">
