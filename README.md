@@ -1,3 +1,14 @@
+# Preview
+![](https://user-images.githubusercontent.com/81325730/150206590-bcf93eea-9f92-48ba-8d7c-cb3150b78e40.png)
+
+## Tech Used
+NextJS + TailwindCSS + Vanilla CSS
+<br/>
+<br/>
+<br/>
+<br/>
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
