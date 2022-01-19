@@ -1,5 +1,5 @@
 # Preview
-![](https://user-images.githubusercontent.com/81325730/150206590-bcf93eea-9f92-48ba-8d7c-cb3150b78e40.png)
+![](https://user-images.githubusercontent.com/81325730/150213102-501f2e63-9fd0-4bd9-83f4-286d519a5303.png)
 
 ## Tech Used
 NextJS + TailwindCSS + Vanilla CSS
