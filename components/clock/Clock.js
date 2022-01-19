@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Clock() {
   return (
-    <div className="relative left-1/2 -translate-x-1/2 mt-[24vw] sm:mt-[22vw] md:mt-[20vw] lg:mt-[18vw] 2xl:mt-[16vw] w-max p-10 flex justify-center items-center pt-14 scale-75 sm:scale-100 z-10">
+    <div className="relative left-1/2 -translate-x-1/2 w-max flex justify-center items-center z-10">
       {/* Clock outer frame */}
       <div className="w-96 aspect-[1/1.2160] shadow-lg rounded-3xl absolute">
         {/* Clock Border */}

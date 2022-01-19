@@ -2,6 +2,7 @@ import Head from "next/head";
 import Clock from "../components/clock/Clock";
 import Header from "../components/header/Header";
 import Strap from "../components/strap/Strap";
+import UpwardStrap from "../components/strap/UpwardStrap";
 
 export default function Home() {
   return (
@@ -17,8 +18,11 @@ export default function Home() {
 
       <body className="min-h-screen">
         <Header />
-        <Clock/>
-        <Strap/>
+        <div className=" scale-75 sm:scale-100">
+          <UpwardStrap />
+          <Clock />
+          <Strap />
+        </div>
       </body>
     </>
   );
